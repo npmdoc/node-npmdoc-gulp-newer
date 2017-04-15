@@ -1,11 +1,13 @@
 # api documentation for  [gulp-newer (v1.3.0)](https://github.com/tschaub/gulp-newer)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-newer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-newer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-newer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-newer)
 #### Only pass through newer source files
 
-[![NPM](https://nodei.co/npm/gulp-newer.png?downloads=true)](https://www.npmjs.com/package/gulp-newer)
+[![NPM](https://nodei.co/npm/gulp-newer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-newer)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-newer_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-newer/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
@@ -55,13 +57,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "tschaub",
-            "email": "tim.schaub@gmail.com"
+            "name": "tschaub"
         }
     ],
     "name": "gulp-newer",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/tschaub/gulp-newer.git"
@@ -79,10 +79,36 @@
 # <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
 
 #### [module gulp-newer](#apidoc.module.gulp-newer)
+1.  [function <span class="apidocSignatureSpan"></span>gulp-newer (options)](#apidoc.element.gulp-newer.gulp-newer)
+1.  [function <span class="apidocSignatureSpan">gulp-newer.</span>toString ()](#apidoc.element.gulp-newer.toString)
 
 
 
 # <a name="apidoc.module.gulp-newer"></a>[module gulp-newer](#apidoc.module.gulp-newer)
+
+#### <a name="apidoc.element.gulp-newer.gulp-newer"></a>[function <span class="apidocSignatureSpan"></span>gulp-newer (options)](#apidoc.element.gulp-newer.gulp-newer)
+- description and source-code
+```javascript
+gulp-newer = function (options) {
+  return new Newer(options);
+}
+```
+- example usage
+```shell
+n/a
+```
+
+#### <a name="apidoc.element.gulp-newer.toString"></a>[function <span class="apidocSignatureSpan">gulp-newer.</span>toString ()](#apidoc.element.gulp-newer.toString)
+- description and source-code
+```javascript
+toString = function () {
+    return toString;
+}
+```
+- example usage
+```shell
+n/a
+```
 
 
 
