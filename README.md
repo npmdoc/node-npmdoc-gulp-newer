@@ -1,9 +1,14 @@
-# api documentation for  [gulp-newer (v1.3.0)](https://github.com/tschaub/gulp-newer)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-newer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-newer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-newer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-newer)
+# npmdoc-gulp-newer
+
+#### api documentation for  [gulp-newer (v1.3.0)](https://github.com/tschaub/gulp-newer)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-newer.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-newer) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-newer.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-newer)
+
 #### Only pass through newer source files
 
 [![NPM](https://nodei.co/npm/gulp-newer.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-newer)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-newer/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-newer/build/screenCapture.npmPackageListing.svg)
 
@@ -70,44 +75,9 @@
         "pretest": "eslint index.js spec.js",
         "test": "mocha spec.js"
     },
-    "version": "1.3.0"
+    "version": "1.3.0",
+    "bin": {}
 }
-```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-newer](#apidoc.module.gulp-newer)
-1.  [function <span class="apidocSignatureSpan"></span>gulp-newer (options)](#apidoc.element.gulp-newer.gulp-newer)
-1.  [function <span class="apidocSignatureSpan">gulp-newer.</span>toString ()](#apidoc.element.gulp-newer.toString)
-
-
-
-# <a name="apidoc.module.gulp-newer"></a>[module gulp-newer](#apidoc.module.gulp-newer)
-
-#### <a name="apidoc.element.gulp-newer.gulp-newer"></a>[function <span class="apidocSignatureSpan"></span>gulp-newer (options)](#apidoc.element.gulp-newer.gulp-newer)
-- description and source-code
-```javascript
-gulp-newer = function (options) {
-  return new Newer(options);
-}
-```
-- example usage
-```shell
-n/a
-```
-
-#### <a name="apidoc.element.gulp-newer.toString"></a>[function <span class="apidocSignatureSpan">gulp-newer.</span>toString ()](#apidoc.element.gulp-newer.toString)
-- description and source-code
-```javascript
-toString = function () {
-    return toString;
-}
-```
-- example usage
-```shell
-n/a
 ```
 
 
